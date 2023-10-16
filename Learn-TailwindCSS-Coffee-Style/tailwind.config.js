@@ -7,7 +7,12 @@ export default {
         Karla: ["Karla", "sans-serif"],
       },
       colors: {
-        "light-coffee": "#c89f94",
+        coffee: {
+          50: "#e8d6d0",
+          200: "#c89f94",
+          400: "#A25F4B",
+          600: "#744838",
+        },
       },
       keyframes: {
         slideDown: {
