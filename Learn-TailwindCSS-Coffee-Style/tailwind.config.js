@@ -18,6 +18,9 @@ export default {
       animation: {
         slideDown: "slideDown .6s ease-in-out",
       },
+      backdropImage: {
+        "slider-bg": 'url("./assets/bg_slider.png")',
+      },
     },
   },
   plugins: [],

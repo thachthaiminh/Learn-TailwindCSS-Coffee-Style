@@ -23,7 +23,7 @@ function Nav() {
     <div>
       <nav className="flex flex-row justify-between items-center relative">
         <div className="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
-          CoffeeStyle.
+          thachthaiminh CoffeeStyle
         </div>
         {/* Start top menu */}
         <ul
