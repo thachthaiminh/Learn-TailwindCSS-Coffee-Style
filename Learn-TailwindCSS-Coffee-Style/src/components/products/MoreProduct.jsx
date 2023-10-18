@@ -6,7 +6,7 @@ function MoreProduct() {
         <div className="ttm-subheadLine-label ">More Products</div>
         <div className="ttm-subheadLine-deco-line w-8 h-px bg-gray-200"></div>
       </div>
-      <div className="more-product featured-mugs w-[95%] lg:w-[65%] mx-auto mb-20">
+      <div className="more-product featured-mugs w-[95%] xl:w-[65%] mx-auto mb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4">
           <div className="ttm-product-card ">
             <div className="h-[320px] bg-[url('./assets/mugs/RedLoveCup.jpg')] bg-cover bg-no-repeat bg-center">
