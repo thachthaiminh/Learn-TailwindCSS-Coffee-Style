@@ -1,7 +1,7 @@
 function SubscribeUs() {
   return (
     <div>
-      <div className="subcribe-us">subcribe-us</div>
+      <div className="subcribe-us h-[500px] bg-slate-500">subcribe-us</div>
     </div>
   );
 }
