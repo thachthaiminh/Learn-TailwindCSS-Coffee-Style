@@ -8,7 +8,7 @@ function LifeStyle() {
         </div>
         <div className="ttm-subheadLine-deco-line w-8 h-px bg-gray-200"></div>
       </div>
-      <div className="life-style">life-style</div>
+      <div className="life-style h-[1000px]">life-style</div>
     </div>
   );
 }
