@@ -1,5 +1,6 @@
 import Main from "./components/Main";
 import Nav from "./components/Nav";
+import Footer from "./components/products/Footer";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
           <main>
             <Main></Main>
           </main>
-          <footer>FOOTER</footer>
+          <footer>
+            <Footer></Footer>
+          </footer>
         </div>
         {/* End content-wrapper  */}
       </div>
