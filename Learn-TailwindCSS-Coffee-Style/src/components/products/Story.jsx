@@ -1,10 +1,25 @@
 function Story() {
   return (
     <div>
-      <div className="story flex justify-center items-center">
-        <div className="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
-          <div className="text-[28px] leading-10 mb-6 font-normal">
-            Even the all-powerful Pointing has no control about the blind texts.
+      <div className="ttm-subheadLine">
+        <div className="ttm-subheadLine-deco-line "></div>
+        <div className="ttm-subheadLine-label ">Coffe Story</div>
+        <div className="ttm-subheadLine-deco-line w-8 h-px bg-gray-200"></div>
+      </div>
+      <div className="story flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-4 w-[95%] xl:w-[65%] mx-auto mb-20">
+        <div className="basis-1/2">
+          <video
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover min-h-[330px] rounded-md"
+          >
+            <source src="./src/assets/coffee-cup.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="basis-1/2 text-center lg:text-left  lg:pl-6">
+          <div className="text-3xl leading-10 mb-6 font-normal">
+            What is your most special coffee?
           </div>
           <div className="text-gray-500 leading-7 mb-6">
             It is a paradisematic country, in which roasted parts of sentences

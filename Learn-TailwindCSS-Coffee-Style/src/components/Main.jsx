@@ -19,7 +19,7 @@ function Main() {
 
       <CoffeeMagazine></CoffeeMagazine>
 
-      <div className="ttm-parallax  bg-[url('./assets/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw_+_50%)]"></div>
+      <div className="ttm-parallax  bg-[url('./assets/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[340px] md:h-[440px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw_+_50%)]"></div>
 
       <LifeStyle></LifeStyle>
 
